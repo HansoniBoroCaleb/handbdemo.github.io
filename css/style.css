@@ -65,7 +65,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7,
+h8 {
      letter-spacing: 0;
      font-weight: normal;
      position: relative;
@@ -100,6 +102,16 @@ h6 {
      font-size: 13px
 }
 
+h7 {
+   font-size: 25px;
+   font-weight: bold;
+   color: #18407c;
+}
+
+h8 {
+   font-size: 17px;
+   color: #18407c;
+}
 *,
 *::after,
 *::before {
@@ -280,6 +292,7 @@ ul.infomaco li {
      display: flex;
      align-items: center;
      flex-wrap: wrap;
+     font-size: 12px;
 }
 
 ul.infomaco li:last-child {
@@ -718,6 +731,10 @@ ul.infomaco li a {
      text-align: center;
      padding: 0 10px 35px 10px;
      margin-top: 85px;
+}
+
+.service-box i img {
+     height: 70%;
 }
 
 .service-box i {
@@ -1166,7 +1183,7 @@ ul.gikx li {
 
 .infoma ul li {
      color: #bebbbb;
-     font-size: 14px;
+     font-size: 12px;
      text-align: left;
      line-height: 35px;
      display: inline-block;
