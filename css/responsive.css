@@ -91,7 +91,7 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #000000;
+        background: #09254e;
         padding: 20px;
         margin-top: 16px;
         position: absolute;
@@ -119,6 +119,34 @@
     .d_none {
         display: none;
     }
+
+    .lob-intro {
+        margin-bottom: 40px;
+   }
+   
+   .lob {
+        display: flex;
+        border: #18407c solid 4px;
+        margin: 5px 5px;
+        padding: 15px 15px;
+        border-radius: 60px;
+        min-height: 300px;
+   }
+   
+   .lob-img {
+        padding: 10px 1.5px;
+        width: 35%;
+   }
+   
+   .lob-img img {
+        height:  ;
+        width: 70% ;
+   }
+   
+   .lob-text {
+        padding-left: 3px;
+        padding-top: 20px;
+   }
 }
 
 @media (max-width: 575px) {
@@ -181,7 +209,7 @@
         margin-top: -49px;
     }
     .navigation .navbar-collapse {
-        background: #000000;
+        background: #041733;
         padding: 20px;
         margin-top: 65px;
         position: absolute;
