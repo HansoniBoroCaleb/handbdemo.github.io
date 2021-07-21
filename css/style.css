@@ -67,7 +67,8 @@ h4,
 h5,
 h6,
 h7,
-h8 {
+h8,
+h9 {
      letter-spacing: 0;
      font-weight: normal;
      position: relative;
@@ -111,6 +112,11 @@ h7 {
 h8 {
    font-size: 17px;
    color: #18407c;
+}
+
+h9 {
+     font-size: 40px;
+     color: #18407c;
 }
 *,
 *::after,
@@ -753,7 +759,33 @@ ul.infomaco li a {
      transform: rotate(-45deg);
 }
 
+.lob-intro {
+     margin-bottom: 40px;
+}
 
+.lob {
+     display: flex;
+     border: #18407c solid 4px;
+     margin: 5px 5px;
+     padding: 15px 15px;
+     border-radius: 60px;
+     min-height: 300px;
+}
+
+.lob-img {
+     padding: 10px 1.5px;
+     width: 35%;
+}
+
+.lob-img img {
+     height:  ;
+     width: 70% ;
+}
+
+.lob-text {
+     padding-left: 3px;
+     padding-top: 20px;
+}
 /** end service **/
 
 
@@ -961,11 +993,12 @@ ul.social_iconteam li a i:hover {
 
 .bor_no {
      border: inherit;
+     background-color: #f3f2f2cc;
 }
 
 .bor_no .card-header {
      padding: 0;
-     background: inherit;
+     background-color: inherit;
      border: inherit;
 }
 
