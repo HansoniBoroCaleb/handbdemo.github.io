@@ -235,4 +235,32 @@
     .d_none {
         display: none;
     }
+
+    .lob-intro {
+        margin-bottom: 40px;
+   }
+   
+   .lob {
+        display: flex;
+        border: #18407c solid 4px;
+        margin: 5px 5px;
+        padding: 15px 15px;
+        border-radius: 60px;
+        min-height: 300px;
+   }
+   
+   .lob-img {
+        padding: 10px 1.5px;
+        width: 35%;
+   }
+   
+   .lob-img img {
+        height:  ;
+        width: 70% ;
+   }
+   
+   .lob-text {
+        padding-left: 3px;
+        padding-top: 20px;
+   }
 }
