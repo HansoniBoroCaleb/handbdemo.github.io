@@ -243,15 +243,15 @@
    .lob {
         display: flex;
         border: #18407c solid 4px;
-        margin: 5px 5px;
-        padding: 15px 15px;
-        border-radius: 60px;
-        min-height: 300px;
+        margin: 2px 2px;
+        padding: 5px 5px;
+        border-radius: 30px;
+        min-height: 100px;
    }
    
    .lob-img {
-        padding: 10px 1.5px;
-        width: 35%;
+        padding: 3px 1px;
+        width: 50%;
    }
    
    .lob-img img {
@@ -260,7 +260,7 @@
    }
    
    .lob-text {
-        padding-left: 3px;
-        padding-top: 20px;
+        padding-left: 1px;
+        padding-top: 10px;
    }
 }
