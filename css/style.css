@@ -855,6 +855,10 @@ ul.infomaco li a {
      line-height: 12px;
 }
 
+.team-bio-text p {
+     padding-top: 20px;
+}
+
 ul.social_iconteam {
      position: absolute;
      left: 0;
